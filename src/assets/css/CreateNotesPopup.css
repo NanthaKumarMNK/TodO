@@ -1,0 +1,165 @@
+.popup {
+  height: 25%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 20px;
+}
+
+.popupTitle {
+  text-align: left;
+  height: 20%;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+
+.popupInput {
+  height: 20%;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  justify-content: start;
+  font-family: Roboto;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+.popupColorInput span{
+  font-family: Roboto;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+
+.popupInput > input {
+  width: 17vw;
+  height: 3vh;
+  border: 2px solid grey;
+  border-radius: 6vh;
+  padding: 0.5rem;
+  font-size: 2vh;
+  font-weight: 600;
+}
+
+.popupColorInput {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: start;
+  gap: 3vw;
+  align-items: center;
+  margin: 20px 20px 20px 0;
+}
+
+.popupColorInputColor {
+  display: flex;
+  gap: 1vw;
+}
+
+.popupColorInputColor1,
+.popupColorInputColor2,
+.popupColorInputColor3,
+.popupColorInputColor4,
+.popupColorInputColor5,
+.popupColorInputColor6 {
+  width: 3vh;
+  height: 3vh;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+}
+
+.popupColorInputColor1 {
+  background-color: #b38bfa;
+}
+
+.popupColorInputColor2 {
+  background-color: #ff79f2;
+}
+
+.popupColorInputColor3 {
+  background-color: #43e6fc;
+}
+
+.popupColorInputColor4 {
+  background-color: #f19576;
+}
+
+.popupColorInputColor5 {
+  background-color: #0047ff;
+}
+
+.popupColorInputColor6 {
+  background-color: #6691ff;
+}
+
+.popupClose {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.popupClose > button {
+  height: 5vh;
+  width: 8vw;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 4vh;
+  background-color: #001F8B;
+}
+
+.highlight {
+  border: 2px solid black;
+  border-radius: 6vh;
+}
+
+@media screen and (max-width: 426px) {
+ .popup{
+  width: 70vw;
+  height: 30vh;
+ }
+ .popupTitle{
+  text-align: center;
+ }
+ .popupInput{
+    width: 100%;
+ }
+ .popupInput span,.popupColorInput span{
+    font-size: 18px;
+ }
+ .popupInput input{
+  width: 50%
+ }
+ .popupClose button{
+  width: 50%;
+  height: 90%;
+ }
+ .popupClose{
+ justify-content: center;}
+ .popupTitle{
+  margin-bottom: 2px;
+ }
+}

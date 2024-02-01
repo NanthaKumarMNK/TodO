@@ -1,0 +1,41 @@
+.Home {
+  width: 75vw;
+  height: 100vh;
+  background-color: #dae5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.Home > img {
+  margin-top: 25vh;
+  width: 35vw;
+  height: 35vh;
+}
+
+.Home > h1,
+p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.HomeBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 10vh;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.HomeBottom > img {
+  width: 1.2vw;
+  height: 1.2vw;
+}
+
+@media screen and (max-width: 426px) {
+  .Home{display: none;}
+}

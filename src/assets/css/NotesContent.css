@@ -1,0 +1,46 @@
+.NotesContentNote {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1vw;
+  height: auto;
+  background-color: white;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px 0px #00000040;
+}
+
+
+.NotesContentDateTimeDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+
+  font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+
+.NotesContentDate {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1vh;
+}
+
+.NotesContentTime {
+  margin: 0 1vh 0 1vh;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.NotesContentDetails {
+  min-height: 5vh;
+  height: auto;
+  text-align: left;
+  margin: 10px;
+}
